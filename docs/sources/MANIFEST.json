@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "received_on": "2026-11-11",
+  "baseline_root": "docs/baselines/v1.1",
+  "archive_prefix": "quality-knowledge-hub-v1.1/",
+  "archive": {
+    "path": "docs/sources/quality-knowledge-hub-v1.1-docs.zip",
+    "original_filename": "quality-knowledge-hub-v1.1-docs (2).zip",
+    "bytes": 74447,
+    "sha256": "d0926cbc497b54db56d15d8c8436be1fc492b84611d194faf73463b066cd654a"
+  },
+  "independent_prompt": {
+    "path": "docs/sources/CODEX_EXECUTION_PROMPT.md",
+    "original_filename": "CODEX_EXECUTION_PROMPT.md",
+    "bytes": 3166,
+    "sha256": "c24adaaba47bb31bc7bcb81c2ab53717dbf91b3e07675de5f4f5569338b47a63",
+    "matches_archive": true
+  },
+  "counts": {
+    "markdown_total": 74,
+    "v1_1_current": 43,
+    "v1_0_history": 31
+  },
+  "files": [
+    {
+      "path": "ADR/ADR-001-architecture.md",
+      "bytes": 552,
+      "sha256": "27459da18fd0346002f675c0e4743aeddb348476e77f9c3d7405f76d80f1f1f4"
+    },
+    {
+      "path": "ADR/ADR-002-document-parser.md",
+      "bytes": 498,
+      "sha256": "b2a8b8d16973454bc07d7897eff1f84ed69b65b9a499c19a4b1bfef29a69eb4e"
+    },
+    {
+      "path": "ADR/ADR-003-retrieval-engine.md",
+      "bytes": 446,
+      "sha256": "ef68d2a1a859a7ccfec6f73abdb74db33d905c60be9a44d4faeda5dfaa02e7b0"
+    },
+    {
+      "path": "ADR/ADR-004-permission-model.md",
+      "bytes": 389,
+      "sha256": "be13e7e6f9fd1c9d44661e41af6053862737bfefc9f8e7c479e3edfb784ff4c8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1379,
+      "sha256": "eb5edc83f3ba330df31f25ad417e597420d0b6c03880f52eedc0acd90167e00d"
+    },
+    {
+      "path": "API_SPEC.md",
+      "bytes": 2841,
+      "sha256": "42f8b63932a3e763401e2003ff8b34060dfc96a4285c5b7aa5240f6307d1aba2"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 3401,
+      "sha256": "2ad22264007d69f137def3c4a90d80d4c06963f8794b5b545ea541cf271d5ac6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 764,
+      "sha256": "5fdf08980140f602b6e681dc31a16a52c9c9b56806cf75fbd8b77f0df481ee60"
+    },
+    {
+      "path": "CODEX_EXECUTION_PROMPT.md",
+      "bytes": 3166,
+      "sha256": "c24adaaba47bb31bc7bcb81c2ab53717dbf91b3e07675de5f4f5569338b47a63"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1010,
+      "sha256": "6e2169bf3a4b20a7d58f5aa0d09d1ebd72a37d7d6816d059be4a47d3ff3b0958"
+    },
+    {
+      "path": "DATABASE_SCHEMA.md",
+      "bytes": 4149,
+      "sha256": "d5c70351c61bf00e57eb14e009ac6e388eb2e5449e689733cd1a19dd17f90192"
+    },
+    {
+      "path": "INGESTION_PIPELINE.md",
+      "bytes": 2994,
+      "sha256": "da9f348c8a719793de9fe36e45e084536fe935682dfceddda0133827efce0a5f"
+    },
+    {
+      "path": "KNOWLEDGE_MAP.md",
+      "bytes": 3427,
+      "sha256": "1dfc183b08b4feb95d5afa3ee9de4e964182e5be8d134daa3039e0a375d99f2d"
+    },
+    {
+      "path": "PROJECT_PLAN.md",
+      "bytes": 5423,
+      "sha256": "019a3bba60469ed1def563bd4b630cde0f713d765bfa1812f50ea81277924ffc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2676,
+      "sha256": "728affcd2b1d7b1e01efc31d0243933858876cdd4a8ea1f1c1f94678e8dfbd63"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 1312,
+      "sha256": "86aa57d5470c911eb59cdbb862a19cade786335a20e2508a1eb1ad95afc70c06"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1333,
+      "sha256": "e30ada029d3996cf7d0a14d40675eba8fbeb034b17a8b8553b802a8ea42415b0"
+    },
+    {
+      "path": "TEST_PLAN.md",
+      "bytes": 2001,
+      "sha256": "e5c54651fe0e6ccfebe16c1f3b1852997bd10d232c2b8f82fb3869b380a57941"
+    },
+    {
+      "path": "VERSION.md",
+      "bytes": 241,
+      "sha256": "b229f32cc5400c018f2919b1c496ce6c577375ebca74b65effe8e0aee12882b5"
+    },
+    {
+      "path": "evaluation/GOLDEN_SET_SPEC.md",
+      "bytes": 429,
+      "sha256": "122488f6f469b5769bda0662da1b701e43bdb70c3835d64eb73f27a9805385af"
+    },
+    {
+      "path": "evaluation/PARSER_BENCHMARK.md",
+      "bytes": 482,
+      "sha256": "e7972af258c38acc1f6dadbd1595644ab1bcdcd05b6a5c6055901e41d24aec77"
+    },
+    {
+      "path": "execution/PHASE-00-technical-spike.md",
+      "bytes": 708,
+      "sha256": "cb94861378ae9396e95028f3e985062b82f1c7a5c0ab7ba839866780919e190a"
+    },
+    {
+      "path": "execution/PHASE-01-foundation.md",
+      "bytes": 423,
+      "sha256": "96cb6c73d8f7116fffb4b817b9bdf96f517a69544b24a0b7e03733b913129e15"
+    },
+    {
+      "path": "execution/PHASE-02-ingestion.md",
+      "bytes": 394,
+      "sha256": "22c2249fcba7d696c420996e7c5744f4482d2af82704cd53fea24284399a0a67"
+    },
+    {
+      "path": "execution/PHASE-03-retrieval.md",
+      "bytes": 385,
+      "sha256": "512558d9a1cf9effa0996a482c9c25511bf3cbbee5990b69ad93582a75f739ca"
+    },
+    {
+      "path": "execution/PHASE-04-web.md",
+      "bytes": 436,
+      "sha256": "ed9046ab2f7e52da5a7cdb0c6ea0f09bd5e3e67d0beadf97147f29c7180b39e4"
+    },
+    {
+      "path": "execution/PHASE-05-wecom.md",
+      "bytes": 284,
+      "sha256": "8b7a4e38c9204858757e1f3d17f4de90f65358293c2a30e25903d46c7cddf4d0"
+    },
+    {
+      "path": "execution/PHASE-06-acceptance.md",
+      "bytes": 342,
+      "sha256": "5bbb94d816574e28e793228305801f37b1f24b8ded322b3a08099b5258adadc8"
+    },
+    {
+      "path": "governance/DOCUMENT_CHANGE_WORKFLOW.md",
+      "bytes": 453,
+      "sha256": "9839a341bea42da239a2a671f529f84d2b2c0d5fb18c3c038b1b5eae8a13ef1b"
+    },
+    {
+      "path": "governance/KNOWLEDGE_OWNERSHIP.md",
+      "bytes": 848,
+      "sha256": "de89ba067b27c1f48fa7943ab9fd39da669e21816e291a8b0f98e0462b1a388f"
+    },
+    {
+      "path": "governance/KNOWLEDGE_REVIEW_POLICY.md",
+      "bytes": 702,
+      "sha256": "42c1e318d6d4bd82bee7ecf3c6b336bf3aee923115a21f5cd538994624ccba59"
+    },
+    {
+      "path": "integrations/INTEGRATION_CONTRACT.md",
+      "bytes": 840,
+      "sha256": "249f91ef3e3c93cc483b2ae6828d8f946e7e2abf18319efc748ea8a395261cba"
+    },
+    {
+      "path": "integrations/MCP_PLUGIN_STRATEGY.md",
+      "bytes": 666,
+      "sha256": "a1a966cbd96d074a59a4d9e214b1b25967639da57270f2163a33e3f1a2369fe7"
+    },
+    {
+      "path": "knowledge/FEEDBACK_TAXONOMY.md",
+      "bytes": 842,
+      "sha256": "45f9a599ccd7a06af9d2519080b0dd63c1fc6f76dbd62c3c0a2d5cc0d54b41fc"
+    },
+    {
+      "path": "knowledge/KNOWLEDGE_LIFECYCLE.md",
+      "bytes": 727,
+      "sha256": "d025b75acd30d98a521d1b563c5c6d9f2484a04d2b15450f739d8b538dba5166"
+    },
+    {
+      "path": "knowledge/KNOWLEDGE_MODEL.md",
+      "bytes": 930,
+      "sha256": "597e832758e4123e2e0cf72bd9584e08d3c0f728ab3434b5095df884eb9b4078"
+    },
+    {
+      "path": "knowledge/KNOWLEDGE_RELATIONS.md",
+      "bytes": 737,
+      "sha256": "00dc8b74a353a54992797652ead1f6fa885e34b53975bd8e0438bac64206d085"
+    },
+    {
+      "path": "knowledge/KNOWLEDGE_TRUST_LEVELS.md",
+      "bytes": 785,
+      "sha256": "5d9ffb9820088191bcc778b369c3cfedea7922512d5d60dba679da92f7db8f51"
+    },
+    {
+      "path": "knowledge/PARSING_RULES.md",
+      "bytes": 1446,
+      "sha256": "377a5a0e79ccf4b29fbbb6d6c253dc78842383374474f7860b9551780fb5ac51"
+    },
+    {
+      "path": "records/CHANGE_RECORD.md",
+      "bytes": 530,
+      "sha256": "337f43aa18ee008c4bfe6cf29acf804db694eb582b465162564e44e5c29b9880"
+    },
+    {
+      "path": "records/DECISION_LOG.md",
+      "bytes": 870,
+      "sha256": "a57bc1154b986bff60add7e33df9b41671da49c0c542a22c9bc995943111dc1b"
+    },
+    {
+      "path": "records/RISK_REGISTER.md",
+      "bytes": 1013,
+      "sha256": "da2629a4c985e8eb68da5e8330cc2d360dbc89a97199b0181aa84467bc7431ab"
+    },
+    {
+      "path": "records/WEEKLY_PROGRESS.md",
+      "bytes": 213,
+      "sha256": "fe880c7444df5ace126774f663874a989bbd250449a1a6e9177c0479c33b97a0"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ADR/ADR-001-architecture.md",
+      "bytes": 552,
+      "sha256": "27459da18fd0346002f675c0e4743aeddb348476e77f9c3d7405f76d80f1f1f4"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ADR/ADR-002-document-parser.md",
+      "bytes": 498,
+      "sha256": "b2a8b8d16973454bc07d7897eff1f84ed69b65b9a499c19a4b1bfef29a69eb4e"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ADR/ADR-003-retrieval-engine.md",
+      "bytes": 446,
+      "sha256": "ef68d2a1a859a7ccfec6f73abdb74db33d905c60be9a44d4faeda5dfaa02e7b0"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ADR/ADR-004-permission-model.md",
+      "bytes": 389,
+      "sha256": "be13e7e6f9fd1c9d44661e41af6053862737bfefc9f8e7c479e3edfb784ff4c8"
+    },
+    {
+      "path": "version-history/v1.0-baseline/AGENTS.md",
+      "bytes": 2536,
+      "sha256": "06352ec4c37eb806f3a37620381553d23661a912bd4e4255dab660731b7f62b8"
+    },
+    {
+      "path": "version-history/v1.0-baseline/API_SPEC.md",
+      "bytes": 2666,
+      "sha256": "f5cb829ff0ad11e862b40b4a3218254a766cafa7b621f0e7c5767095a71b55a5"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ARCHITECTURE.md",
+      "bytes": 2587,
+      "sha256": "187f48553648462b430ea86c0f72f34fac7292738019824ec7e6a0b2f47bce5c"
+    },
+    {
+      "path": "version-history/v1.0-baseline/CHANGELOG.md",
+      "bytes": 338,
+      "sha256": "97836d9c86a6e274bbe463d2848f79ac41c3f0c4b0c2c9674d4ca10e2e340ee2"
+    },
+    {
+      "path": "version-history/v1.0-baseline/CODEX_EXECUTION_PROMPT.md",
+      "bytes": 2666,
+      "sha256": "7830bbb15896e126bcff6d2f382c8af857612f4b05b868c59d12f389e796705a"
+    },
+    {
+      "path": "version-history/v1.0-baseline/CONTRIBUTING.md",
+      "bytes": 952,
+      "sha256": "189ad93432cb6c8664b8a51cdd8f4b01221bc3702670c0d041fbc1399f66c6d7"
+    },
+    {
+      "path": "version-history/v1.0-baseline/DATABASE_SCHEMA.md",
+      "bytes": 3389,
+      "sha256": "e655504c08592de6838ceb620b1ea67a8204e4d6b853e5d19dad04b5e9ee130c"
+    },
+    {
+      "path": "version-history/v1.0-baseline/INGESTION_PIPELINE.md",
+      "bytes": 2539,
+      "sha256": "a059c7b077d0528c7439513c415788f7c008ab05af46194e943125d7072705d1"
+    },
+    {
+      "path": "version-history/v1.0-baseline/KNOWLEDGE_MAP.md",
+      "bytes": 2373,
+      "sha256": "16c72741460df78b93e394215d4ee0cdcf7086850eecee843426abc271c9c6f8"
+    },
+    {
+      "path": "version-history/v1.0-baseline/PROJECT_PLAN.md",
+      "bytes": 4012,
+      "sha256": "00865322795c47a297989a23af2ef2dfa74e5d521041f5bd9019674375633386"
+    },
+    {
+      "path": "version-history/v1.0-baseline/README.md",
+      "bytes": 1749,
+      "sha256": "a83a6b1ad9f6b553ef0f4444f6f4d6c0915d3fd5c84c062db0707908a96816cc"
+    },
+    {
+      "path": "version-history/v1.0-baseline/ROADMAP.md",
+      "bytes": 732,
+      "sha256": "f860dc3a69c0ac948eee62643b14e12a44d7b09f931096ae862679e347fdebe4"
+    },
+    {
+      "path": "version-history/v1.0-baseline/SECURITY.md",
+      "bytes": 1657,
+      "sha256": "aec25c0b32e3eaea3734239152b04608f4630dbec69328e3d4c9abcb5f5a8ab0"
+    },
+    {
+      "path": "version-history/v1.0-baseline/TEST_PLAN.md",
+      "bytes": 2236,
+      "sha256": "b454b93bcf38ba79d4a3faf27844a27ea416dfdad14408a74ee10f10d131487c"
+    },
+    {
+      "path": "version-history/v1.0-baseline/evaluation/GOLDEN_SET_SPEC.md",
+      "bytes": 529,
+      "sha256": "f27cc4c2e0ca06c367a2ced963ee60ca692f191cd513b6fe996f66bb44360a76"
+    },
+    {
+      "path": "version-history/v1.0-baseline/evaluation/PARSER_BENCHMARK.md",
+      "bytes": 942,
+      "sha256": "671ff3266ea222ade940428aa2b02b79843a1e918221686421f628e2b97faad2"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-00-technical-spike.md",
+      "bytes": 1162,
+      "sha256": "d0d7a5510861d7b6aa1c5266e28eec56e78f252aa6cb606279fb4ffe8334ba62"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-01-foundation.md",
+      "bytes": 646,
+      "sha256": "2874401cec891d601dddc632b0446e14cda237ddea319cc210068623059b5916"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-02-ingestion.md",
+      "bytes": 649,
+      "sha256": "49e0b6837fa82a623b35fd437b580e25facb31512b2688e3656a053f6ddf9d98"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-03-retrieval.md",
+      "bytes": 590,
+      "sha256": "c60aafb902d2e219b3bc27f11d914d18a6cb8dbb103cd378e9d03bcd19cc077c"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-04-web.md",
+      "bytes": 421,
+      "sha256": "a317f5615813f87e3086a8e2818913696e25f40115c1ff0525dcb47f10342f7d"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-05-wecom.md",
+      "bytes": 579,
+      "sha256": "109250de7751980013f4cd5f9a0130b2adf90794fcc2e082d9758a2a87f2f45c"
+    },
+    {
+      "path": "version-history/v1.0-baseline/execution/PHASE-06-acceptance.md",
+      "bytes": 538,
+      "sha256": "330e763d074a9cc4e938171de2421def73a1baa6e6e36c8e5a45c9a9ce029f60"
+    },
+    {
+      "path": "version-history/v1.0-baseline/records/CHANGE_RECORD.md",
+      "bytes": 247,
+      "sha256": "3eb16174d07947c5c4f4e0f3f82b20f6a91c9851ad7d6cf4e0b1d7f33e0555cc"
+    },
+    {
+      "path": "version-history/v1.0-baseline/records/DECISION_LOG.md",
+      "bytes": 669,
+      "sha256": "de197c0442beefbc3217b31bdebcca2f7723ef89e35432b12d9c324e90fe5d49"
+    },
+    {
+      "path": "version-history/v1.0-baseline/records/RISK_REGISTER.md",
+      "bytes": 814,
+      "sha256": "0774c1fe948bc417a7acbeb8765c2b885993e2d0e73d3a8de455d445549f0198"
+    },
+    {
+      "path": "version-history/v1.0-baseline/records/WEEKLY_PROGRESS.md",
+      "bytes": 213,
+      "sha256": "fe880c7444df5ace126774f663874a989bbd250449a1a6e9177c0479c33b97a0"
+    }
+  ]
+}

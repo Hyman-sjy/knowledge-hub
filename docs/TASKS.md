@@ -6,9 +6,9 @@
 | --- | --- | --- | --- |
 | SETUP-01 | 已完成 | 读取用户引用的规划对话 | PROJECT_CONTEXT.md，明确用户事实和待核验内容 |
 | SETUP-02 | 已完成 | 建立目录、协作规则、任务及验证模板 | README.md、AGENTS.md、templates、GitHub 模板 |
-| SETUP-03 | 待接收 | 导入原始 V1.1 包及独立执行提示词 | SOURCE_INTAKE.md 所列文件及哈希清单 |
-| SETUP-04 | 待接收 | 核对 V1.0 历史及所有文档链接 | 依赖 SETUP-03；数量、内容和差异核对 |
-| SETUP-05 | 待接收 | 冻结 docs-v1.1-baseline | 依赖 SETUP-04；原始文档齐全 |
+| SETUP-03 | 已完成 | 导入原始 V1.1 包及独立执行提示词 | [接收记录](SOURCE_INTAKE.md)、[逐文件清单](sources/MANIFEST.json) |
+| SETUP-04 | 已完成 | 核对 V1.0 历史及文档引用 | 43 + 31 = 74；[路径适配和差异记录](BASELINE_REVIEW.md) |
+| SETUP-05 | 已完成 | 冻结 docs-v1.1-baseline | 原包完整导入并自动检查；以同名 Git 标签定位本次归档 |
 | V00 | 未开始 | 执行 PHASE 00 技术验证 | 基线、真实样本、授权、环境和责任人到位 |
 | G0 | 未开始 | 技术选型与验收评审 | 实测结果、ADR、授权人工评审 |
 

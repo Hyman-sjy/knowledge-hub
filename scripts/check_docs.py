@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 import sys
 from urllib.parse import unquote, urlsplit
+from check_baseline import verify_baseline
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = (
@@ -11,11 +12,12 @@ REQUIRED = (
     "docs/PROJECT_CONTEXT.md", "docs/SOURCE_INTAKE.md", "docs/PHASE_00.md",
     "docs/TASKS.md", "docs/templates/ADR_TEMPLATE.md",
     "docs/templates/VALIDATION_RECORD.md", "docs/templates/G0_REPORT.md",
+    "CODEX_EXECUTION_PROMPT.md", "docs/BASELINE_REVIEW.md",
 )
 
 
 def main():
-    errors = []
+    errors = verify_baseline(ROOT)
     for name in REQUIRED:
         path = ROOT / name
         if not path.is_file() or not path.read_text(encoding="utf-8").strip():
@@ -43,7 +45,8 @@ def main():
         print("\n".join(errors), file=sys.stderr)
         return 1
     print(f"PASS: {checked} authored Markdown files; required files and local links checked.")
-    print("Scope: repository structure only; original baseline and business validation are pending.")
+    print("PASS: original ZIP, independent prompt and 74 unchanged documents (43 current + 31 historical).")
+    print("Scope: document integrity only; technical spike and G0 business validation have not run.")
     return 0
 
 

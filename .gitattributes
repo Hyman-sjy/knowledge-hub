@@ -1,0 +1,4 @@
+# Preserve imported source bytes, including original line endings and whitespace.
+docs/baselines/v1.1/** -text -whitespace
+docs/sources/CODEX_EXECUTION_PROMPT.md -text -whitespace
+docs/sources/*.zip -text
